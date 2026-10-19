@@ -1,0 +1,17 @@
+name = "supplier"
+main = "src/index.js"
+compatibility_date = "2026-06-26"
+workers_dev = true
+
+[[d1_databases]]
+binding = "DB"
+database_name = "supplier"
+database_id = "9f9585ef-9019-4926-ab78-9523ffccb0b0"
+migrations_dir = "migrations"
+
+[observability]
+enabled = true
+
+[[routes]]
+pattern = "supplier.mswu.tw/*"
+zone_name = "mswu.tw"
